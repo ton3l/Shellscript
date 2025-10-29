@@ -1,3 +1,4 @@
+#!/bin/bash
 touch "output/Usuario_$USER.txt"
 
 echo "Usuário Logado: $USER" >> "output/Usuario_$USER.txt"
