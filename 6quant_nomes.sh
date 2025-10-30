@@ -1,9 +1,9 @@
 #!/bin/bash
 
-read -p "Digite o arquivo alvo: " arch
-if [ -e "$arch" ]; then
+read -p "Digite o arquivo alvo: " archive
+if [ -e "$archive" ]; then
     count=0
-    content=$(cat $arch)
+    content=$(cat $archive)
     read -p "Digite o nome a ser procurado: " name
     for valor in $content
     do
